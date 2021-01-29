@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clrpkr {
+  /* background-color: cadetblue; */
+  display: flex;
+  color: rgb(255, 1, 1);
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+
+  /* padding: 2rem; */
+}
+
+input {
+  width: 10vw;
+  height: 10vw;
+  display: block;
+  margin: 1rem auto;
+  border: 2px solid black;
+  cursor:pointer;
+}
+
+h1 {
+  text-align: center;
+}
